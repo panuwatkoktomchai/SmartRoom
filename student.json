@@ -1,0 +1,98 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 4.6.5.2
+ */
+
+// Database 'smartroom'
+
+// smartroom.base_finger
+
+[{
+    "finger_id_students": "573424022031-8",
+    "finger_name": "\u0e19\u0e32\u0e07\u0e2a\u0e32\u0e27\u0e02\u0e19\u0e34\u0e29\u0e10\u0e32 \u0e17\u0e2d\u0e07\u0e15\u0e31\u0e19\u0e41\u0e17\u0e49",
+    "finger_tell": "0252528523",
+    "finger_branch": "B001",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}, {
+    "finger_id_students": "573424022032-6",
+    "finger_name": "\u0e19\u0e32\u0e22\u0e2a\u0e31\u0e08\u0e08\u0e30 \u0e0a\u0e32\u0e2a\u0e38\u0e27\u0e23\u0e23\u0e13",
+    "finger_tell": "0242538569",
+    "finger_branch": "B001",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}, {
+    "finger_id_students": "573424022033-4",
+    "finger_name": "\u0e19\u0e32\u0e07\u0e2a\u0e32\u0e27\u0e19\u0e31\u0e19\u0e17\u0e22\u0e32 \u0e2a\u0e38\u0e27\u0e23\u0e23\u0e13\u0e23\u0e07\u0e04\u0e4c",
+    "finger_tell": "0214569875",
+    "finger_branch": "B001",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}, {
+    "finger_id_students": "573424022036-7",
+    "finger_name": "\u0e19\u0e32\u0e22\u0e14\u0e34\u0e29\u0e10\u0e4c\u0e18\u0e27\u0e31\u0e0a \u0e27\u0e07\u0e29\u0e4c\u0e42\u0e04\u0e01\u0e2a\u0e39\u0e07",
+    "finger_tell": "0123654789",
+    "finger_branch": "B003",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}, {
+    "finger_id_students": "573424022037-5",
+    "finger_name": "\u0e19\u0e32\u0e07\u0e2a\u0e32\u0e27\u0e1b\u0e32\u0e23\u0e34\u0e0a\u0e32\u0e15\u0e34 \u0e04\u0e38\u0e13\u0e44\u0e0a\u0e22\u0e27\u0e07\u0e04\u0e4c",
+    "finger_tell": "0323214258",
+    "finger_branch": "B001",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}, {
+    "finger_id_students": "573424022038-3",
+    "finger_name": "\u0e19\u0e32\u0e07\u0e2a\u0e32\u0e27\u0e40\u0e02\u0e21\u0e34\u0e01\u0e32 \u0e01\u0e49\u0e2d\u0e07\u0e27\u0e31\u0e12\u0e19\u0e42\u0e01\u0e28\u0e25",
+    "finger_tell": "0321457845",
+    "finger_branch": "B001",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}, {
+    "finger_id_students": "573424022039-1",
+    "finger_name": "\u0e19\u0e32\u0e22\u0e28\u0e23\u0e32\u0e27\u0e38\u0e12\u0e34 \u0e42\u0e2a\u0e20\u0e32\u0e23\u0e31\u0e15\u0e19\u0e4c",
+    "finger_tell": "0124586375",
+    "finger_branch": "B001",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}, {
+    "finger_id_students": "573424022042-5",
+    "finger_name": "\u0e19\u0e32\u0e07\u0e2a\u0e32\u0e27\u0e01\u0e31\u0e0d\u0e18\u0e34\u0e0d\u0e32\u0e23\u0e31\u0e15\u0e19\u0e4c \u0e1a\u0e38\u0e15\u0e23\u0e04\u0e38\u0e13",
+    "finger_tell": "0258963245",
+    "finger_branch": "B001",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}, {
+    "finger_id_students": "573424022043-3",
+    "finger_name": "\u0e19\u0e32\u0e22\u0e28\u0e38\u0e20\u0e01\u0e32\u0e19\u0e15\u0e4c \u0e22\u0e2d\u0e14\u0e2a\u0e07\u0e48\u0e32",
+    "finger_tell": "0236589654",
+    "finger_branch": "B001",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}, {
+    "finger_id_students": "573424022045-8",
+    "finger_name": "\u0e19\u0e32\u0e07\u0e2a\u0e32\u0e27\u0e27\u0e32\u0e2a\u0e19\u0e32 \u0e28\u0e23\u0e35\u0e1e\u0e38\u0e17\u0e18\u0e32",
+    "finger_tell": "0245863254",
+    "finger_branch": "B001",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}, {
+    "finger_id_students": "573424022053-2",
+    "finger_name": "\u0e19\u0e32\u0e22 \u0e20\u0e32\u0e13\u0e38\u0e27\u0e31\u0e12\u0e19\u0e4c \u0e42\u0e04\u0e01\u0e17\u0e21\u0e0a\u0e31\u0e22",
+    "finger_tell": "0949531279",
+    "finger_branch": "B001",
+    "finger_faculty": "F001",
+    "finger_update_date": "2017-09-29",
+    "finger_score": "0"
+}]
