@@ -22,7 +22,7 @@
         <p>สาขา</p>
         <select class="w3-select" name="faculty" id="std_faculty">
         <option value="" disabled selected>เลือกสาขา</option>
-        <option  ng-repeat="(Bkey, Bvalue) in branch_for_select.branch" value="{{ Bvalue.branch_id }}">{{ Bvalue.branch_branch }}</option>
+        <option  ng-repeat="(Bkey, Bvalue) in branch_for_select.branch" value="{{ Bvalue.branch_id}}">{{ Bvalue.branch_branch }}</option>
         </select>
     </div>
 <!-- </form> -->
