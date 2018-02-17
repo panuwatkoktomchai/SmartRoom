@@ -7,7 +7,7 @@
     <div class="w3-container" ng-init="get_active();">
         <div ng-repeat="item in data_active" ng-hide="item.status=='on'" class="w3-panel w3-pale-red w3-leftbar w3-border-red">
             <h3>[{{item.active_id}}]  {{item.active_name}}</h3>
-            <p>วันที่ทำกิจกรรม : {{item.active_time}}</p>
+            <p>วันที่ทำกิจกรรม : {{item.active_time | date:'medium'}}</p>
             <p>สถานที่ทำกิจกรรม : {{item.active_des}}</p> 
             <p class="w3-right"><button class="w3-button w3-blue" ng-click="open_active(item.active_id)">เริ่มกิจกรรม</button></p>
             <!-- <p class="w3-right"><a ng-href="?id=activities/setActive&activeID={{item.active_id}}" class="w3-button w3-yellow">เริ่มกิจกรรม</a></p> -->

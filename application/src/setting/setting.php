@@ -10,7 +10,7 @@
       <!-- <h3>52</h3> -->
     </div>
     <div class="w3-clear"></div>
-    <h4>ตั้งค่าคณะและสาขา</h4>
+    <h4>ตั้งค่าคณะ/สาขา</h4>
   </div>
 </div>
 <div class="w3-quarter">
@@ -33,6 +33,7 @@
     <h4>ตั้งค่าผู้ใช้งาน</h4>
   </div>
 </div>
+
 <div class="w3-quarter">
   <div class="w3-container w3-grey w3-padding-16 w3-hover-teal w3-margin-bottom">
     <div class="w3-left"><a href="?id=setting/settingSetuser"><i class="fa fa-user-circle-o w3-xxxlarge"></i></a></div>
@@ -40,7 +41,29 @@
       <!-- <h3>23</h3> -->
     </div>
     <div class="w3-clear"></div>
-    <h4>ตั้งค่าสิทธิผู้ใช้งาน</h4>
+    <h4>สิทธ์ผู้ใช้งาน</h4>
+  </div>
+</div>
+
+<div class="w3-quarter">
+  <div class="w3-container w3-grey w3-padding-16 w3-hover-teal w3-margin-bottom">
+    <div class="w3-left"><a href="?id=subject/addsubject"><i class="fa fa-user-circle-o w3-xxxlarge"></i></a></div>
+    <div class="w3-right">
+      <!-- <h3>23</h3> -->
+    </div>
+    <div class="w3-clear"></div>
+    <h4>เพิ่มรายวิชา</h4>
+  </div>
+</div>
+
+<div class="w3-quarter">
+  <div class="w3-container w3-grey w3-padding-16 w3-hover-teal w3-margin-bottom">
+    <div class="w3-left"><a href="?id=setting/general"><i class="fa fa-user-circle-o w3-xxxlarge"></i></a></div>
+    <div class="w3-right">
+      <!-- <h3>23</h3> -->
+    </div>
+    <div class="w3-clear"></div>
+    <h4>ตั้งค่าทั่วไป</h4>
   </div>
 </div>
 

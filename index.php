@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<?php
+    session_start();
+    if ($_SESSION["userlogin"] == "") {
+        header("location:application/src/login/login.php");
+    }
+?>
 <html>
 <title>W3.CSS Template</title>
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
@@ -15,6 +21,10 @@
 <script src="js/angular.min.js"></script>
 <script src="bower_components/angular-datatables/dist/angular-datatables.min.js"></script>
 <link rel="stylesheet" href="bower_components/angular-datatables/dist/jquery.dataTables.min.css">
+
+<!-- authentification firebase -->
+<script src="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.5.1/firebaseui.css" />
 
 <!-- Firebase -->
 <script src="js/firebase.js"></script>
@@ -33,6 +43,7 @@
     messagingSenderId: "400523714436"
   };
   firebase.initializeApp(config);
+
 </script>
 <!-- firebase -->
 <style>
@@ -43,7 +54,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <!-- Top container -->
 <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
   <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i> เมนู</button>
-  <span class="w3-bar-item w3-right">Logo</span>
+  <span ><a href="php/auth.php" class="w3-bar-item w3-right">LOGOUT</a></span>
 </div>
 <?php include 'application/src/menu/sidebar.php'; ?>
 <!-- Overlay effect when opening sidebar on small screens -->

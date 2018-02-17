@@ -23,6 +23,27 @@
     <label>ตำแหน่ง</label>
     <input class="w3-input w3-border w3-round-large" ng-model="teacher.level" type="text">
     </p>
+    <p>
+    <label>เบอรโทรติดต่อ</label>
+    <input class="w3-input w3-border w3-round-large" ng-model="teacher.tell" type="text">
+    </p>
+    <p>
+    <label>อีเมล</label>
+    <input class="w3-input w3-border w3-round-large" ng-model="teacher.email" type="text">
+    </p>
+
+    <p>
+    สำหรับเข้าสู่ระบบ<br>
+    <div ng-if="save_error  " class="w3-panel w3-pale-red w3-leftbar w3-border-red">
+        <p>{{save_error}}</p>
+    </div>
+    <label>ชื่อผู้ใช้งาน</label>
+    <input class="w3-input w3-border w3-round-large" ng-model="teacher.user" type="text">
+    </p>
+    <p>
+    <label>รหัสผ่าน</label>
+    <input class="w3-input w3-border w3-round-large" ng-model="teacher.pass" type="text">
+    </p>
     </form>
     
     <table ng-init="get_user()" datatable="ng" class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
@@ -37,11 +58,21 @@
         </thead>
         <tbody>
            <tr ng-repeat="(key,value) in data_teacher">
-                <td>{{$index + 1 }}</td>
-                <td>{{value.name}}</td>
-                <td>{{value.level}}</td>
-                <td>{{value.branch}}</td>
-                <td>{{value.faculty}}</td>
+                <td>
+                    <button ng-if="!edit_teacher.id" class="w3-button w3-orange" ng-click="edit_user(value.id)">
+                        <i class="fa fa-pencil-square-o"></i>
+                    </button>
+                    <button ng-if="value.id == edit_teacher.id" class="w3-button w3-green" ng-click="update_user(value.id)">
+                        <i class="fa fa-check-circle" aria-hidden="true"></i>
+                    </button>
+                    <button ng-if="!edit_teacher.id" class="w3-button w3-red" ng-click="delete_user(value.id,value.name)">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                </td>
+                <td>{{value.name}}<br><p class="w3-animate-zoom" ng-if="value.id == edit_teacher.id"><input class="w3-input w3-hover" type="text" ng-model="edit_teacher.name"></p></td>
+                <td>{{value.level}}<br><p class="w3-animate-zoom" ng-if="value.id == edit_teacher.id"><input class="w3-input w3-hover" type="text" ng-model="edit_teacher.level"></p></td>
+                <td>{{value.branch}}<br><p class="w3-animate-zoom" ng-if="value.id == edit_teacher.id"><input class="w3-input w3-hover" type="text" ng-model="edit_teacher.branch"></p></td>
+                <td>{{value.faculty}}<br><p class="w3-animate-zoom" ng-if="value.id == edit_teacher.id"><input class="w3-input w3-hover" type="text" ng-model="edit_teacher.faculty"></p></td>
            </tr> 
         </tbody>
     </table>

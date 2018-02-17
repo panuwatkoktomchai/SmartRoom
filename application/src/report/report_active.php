@@ -6,6 +6,6 @@
     </header>
     <div>
         <h4>ผู้เข้าร่วม</h4>
-        <p ng-repeat="item in data_detail.students">[ {{item.std_id}} ]  {{item.std_name}} </p>
+        <p ng-repeat="item in data_detail.students">[ {{item.std_id}} ]  {{item.std_name}} {{ item.time | date:'HH:mm:ss'}} </p>
     </div>
 </div>

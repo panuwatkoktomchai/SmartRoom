@@ -20,7 +20,7 @@ app.controller('active_Ctrl', function($scope, $firebaseObject) {
     $scope.get_active = function(){
         var get_ac = firebase.database().ref('activites/');
         $scope.data_active = $firebaseObject(get_ac);
-        console.log($scope.data_active);
+        // console.log($scope.data_active);
     }
 
     $scope.property_active = function(){
